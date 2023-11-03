@@ -1,7 +1,7 @@
 ## linear-model-IgG1-ADDF19-Effect-Analysis
 # **Linear Models: Analyzing the Effect of ADDF19 Concentration on IgG1 Blood Levels in Mice**
 
-**Overview**
+## Overview
 
 This repository contains an analysis examining the relationship between the concentration of a chemical compound, ADDF19, and blood serum levels of Immunoglobulin IgG1 in mice. This project is part of a Linear Model course assignment for the Master of Science in Data Science (MSDS) degree.
 
