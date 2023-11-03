@@ -1,36 +1,48 @@
 ## linear-model-IgG1-ADDF19-Effect-Analysis
-# **Analyzing the Effect of ADDF19 Concentration on IgG1 Blood Levels in Mice**
+# **Linear Models: Analyzing the Effect of ADDF19 Concentration on IgG1 Blood Levels in Mice**
+
+**Overview**
+This repository contains an analysis examining the relationship between the concentration of a chemical compound, ADDF19, and blood serum levels of Immunoglobulin IgG1 in mice. This project is part of a Linear Model course assignment for the Master of Science in Data Science (MSDS) degree.
+
+**Objective**
+The main goal of this study is to assess whether different doses of ADDF19 have any significant effect on the IgG1 blood level concentrations in mice.
+
+**Methodology**
+The analysis involves exploring the data, fitting a linear regression model, and evaluating the model's precision and statistical significance. Additionally, a simulation study is conducted to determine the minimal required sample size for achieving a statistical power of 80%.
+
+**Data**
+The dataset comprises IgG1 blood serum concentrations and corresponding ADDF19 doses for 24 mice. The doses of ADDF19 used in the study are: 0.5µg, 0.75µg, 1µg, 1.25µg, 1.5µg, and 2µg.
+
+**Statistical Analysis**
+The linear regression model fitted to the data provides insights into the relationship between ADDF19 concentration and IgG1 levels. The model is evaluated based on the precision of estimates, 95% confidence intervals, and a significance test at the 5% level.
+
+**Simulation Study**
+A simulation study is conducted to visualize the minimal required sample size (n) for obtaining a power of 80% against varying effect sizes (
+�
+1
+β 
+1
+​
+ ). The residual variance (
+�
+2
+σ 
+2
+ ) and regressor values are determined based on the analysis results and predefined conditions.
+
+**Results and Discussion**
+The preliminary analysis suggests a potential inverse relationship between ADDF19 concentration and IgG1 levels. However, the statistical evidence is not strong enough to confirm this effect. The simulation study provides insights into the sample sizes required for different effect sizes.
+
+**How to Navigate This Repository**
+- mice.RData: Contains the raw data used for the analysis.
+- analysis.Rmd: An R markdown file containing the detailed analysis and simulation study.
 
 
-**Description:** This repository contains an analysis conducted as part of a homework project for a Linear Models course in a Master of Science in Data Science (MSDS) degree. The analysis aims to evaluate the potential side effects of a chemical compound, ADDF19, on the blood serum levels of Immunoglobulin IgG1 in mice, seeking to understand the relationship between different concentrations of ADDF19 and the mean IgG1 blood level concentrations.
+**Dependencies**
+This project utilizes R and the following libraries:
 
-
-**Files:**
-- mice.RData: Contains the dataset used for the analysis.
-- ADDF19_IgG1_Analysis.Rmd: An R Markdown file containing the code, analysis, and interpretation of the study results.
-
-
-
-**Analysis Overview:**
-1. Exploratory Data Analysis: Visualization of the relationship between ADDF19 concentration and IgG1 levels.
-2. Linear Regression Model: A linear model to predict IgG1 levels based on ADDF19 concentration.
-3. Statistical Significance and Confidence Intervals: Evaluation of the precision and significance of the model estimates.
-4. Power Analysis: A simulation study to determine the required sample size for obtaining a power of 80% across various effect sizes.
-
-
-
-**Results:** Preliminary analysis suggests a potential inverse relationship between ADDF19 concentration and IgG1 levels. However, the results are not statistically significant at the 5% level, and the model accounts for only 14.3% of the variability in IgG1 levels. The simulation study provides insights into the sample sizes required to achieve 80% statistical power for varying effect sizes.
-
-
-
-**Usage:** To replicate the analysis, clone the repository and open ADDF19_IgG1_Analysis.Rmd in RStudio.
-
-
-
-**Dependencies:**
-- R
 - tidyverse
-- ggplot2
 - knitr
-
-
+  
+**Contribution**
+Feel free to fork this repository and contribute or adapt the analysis to your needs.
