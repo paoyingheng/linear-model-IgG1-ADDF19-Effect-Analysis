@@ -45,9 +45,9 @@ An intercept of 3.1995 suggested that when the concentration of ADDF19 is zero, 
 
 The regression equation can be written as:
 
-#### IgG1 = 3.1995 -0.9584*concentration
+**IgG1 = 3.1995 -0.9584*concentration**
 
-The p-value of 0.0684, is slightly above the conventional statistical significance threshold of 0.05. The current model accounted for only 14.3% of the variability in IgG1 levels. 
+The p-value of 0.0684 is slightly above the conventional statistical significance threshold of 0.05. The current model accounted for only 14.3% of the variability in IgG1 levels. 
 
 Overall, while the data suggests a trend, the evidence isn't strong enough to confirm the effect of ADDF19 concentration on IgG1 levels. Further research is recommended to substantiate these preliminary findings.
 
