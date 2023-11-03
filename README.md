@@ -70,10 +70,7 @@ Overall, the plot emphasizes the importance of effect size in power analysis: la
 
 ## Dependencies
 
-This project utilizes R and the following libraries:
-
-- tidyverse
-- knitr
+This project utilizes R and the 'tidyverse' library.
   
 ## Contribution
 Feel free to fork this repository and contribute or adapt the analysis to your needs.
