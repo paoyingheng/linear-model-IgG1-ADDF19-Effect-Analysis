@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains an analysis examining the relationship between the concentration of a chemical compound, ADDF19, and blood serum levels of Immunoglobulin IgG1 in mice. This project is part of a Linear Model course assignment.
+This repository contains an analysis examining the relationship between the concentration of a chemical compound, ADDF19, and blood serum levels of Immunoglobulin IgG1 in mice. 
 
 
 ## Objective
