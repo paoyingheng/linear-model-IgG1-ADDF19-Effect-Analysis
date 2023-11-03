@@ -2,9 +2,7 @@
 # **Analyzing the Effect of ADDF19 Concentration on IgG1 Blood Levels in Mice**
 
 
-**Description:**
-
-This repository contains an analysis conducted as part of a homework project for a Linear Models course in a Master of Science in Data Science (MSDS) degree. The analysis aims to evaluate the potential side effects of a chemical compound, ADDF19, on the blood serum levels of Immunoglobulin IgG1 in mice, seeking to understand the relationship between different concentrations of ADDF19 and the mean IgG1 blood level concentrations.
+**Description:** This repository contains an analysis conducted as part of a homework project for a Linear Models course in a Master of Science in Data Science (MSDS) degree. The analysis aims to evaluate the potential side effects of a chemical compound, ADDF19, on the blood serum levels of Immunoglobulin IgG1 in mice, seeking to understand the relationship between different concentrations of ADDF19 and the mean IgG1 blood level concentrations.
 
 
 **Files:**
@@ -21,17 +19,11 @@ This repository contains an analysis conducted as part of a homework project for
 
 
 
-**Results:**
-
-Preliminary analysis suggests a potential inverse relationship between ADDF19 concentration and IgG1 levels.
-However, the results are not statistically significant at the 5% level, and the model accounts for only 14.3% of the variability in IgG1 levels.
-The simulation study provides insights into the sample sizes required to achieve 80% statistical power for varying effect sizes.
+**Results:** Preliminary analysis suggests a potential inverse relationship between ADDF19 concentration and IgG1 levels. However, the results are not statistically significant at the 5% level, and the model accounts for only 14.3% of the variability in IgG1 levels. The simulation study provides insights into the sample sizes required to achieve 80% statistical power for varying effect sizes.
 
 
 
-**Usage:**
-
-To replicate the analysis, clone the repository and open ADDF19_IgG1_Analysis.Rmd in RStudio.
+**Usage:** To replicate the analysis, clone the repository and open ADDF19_IgG1_Analysis.Rmd in RStudio.
 
 
 
