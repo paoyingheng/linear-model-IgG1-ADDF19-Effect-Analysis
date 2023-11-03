@@ -33,7 +33,16 @@ A simulation study is conducted to visualize the minimal required sample size (n
 
 ## Results and Discussion
 
-The preliminary analysis suggests a potential inverse relationship between ADDF19 concentration and IgG1 levels. However, the statistical evidence is not strong enough to confirm this effect. The simulation study provides insights into the sample sizes required for different effect sizes.
+Initial EDA showed that data points were dispersed vertically around each concentration level of ADDF19, suggesting variability in IgG1 levels at each concentration.There seemed to be a slight downward trend in the data. This suggested that as the concentration of ADDF19 increases, the IgG1 levels tended to decrease. However, the relationship is not strongly linear; there was considerable variability in IgG1 levels at each concentration.
+
+![plot01](https://github.com/paoyingheng/linear-model-IgG1-ADDF19-Effect-Analysis/assets/44899774/c7ba62e7-d9e6-468d-b9bb-3c0b5652f089)
+
+The linear regression model also suggested a potential inverse relationship between ADDF19 concentration and IgG1 levels. However, the statistical evidence is not strong enough to confirm this effect. 
+
+![model_summary](https://github.com/paoyingheng/linear-model-IgG1-ADDF19-Effect-Analysis/assets/44899774/a098a1b0-1500-4cd3-9a79-a2f29516300a)
+
+
+The simulation study provides insights into the sample sizes required for different effect sizes.
 
 
 ## How to Navigate This Repository
