@@ -65,7 +65,7 @@ Overall, the plot emphasizes the importance of effect size in power analysis: la
 
 ## How to Navigate This Repository
 - mice.RData: Contains the raw data used for the analysis.
-- analysis.Rmd: An R markdown file containing the detailed analysis and simulation study.
+- analysis.R: R codes for detailed analysis and simulation study.
 
 
 ## Dependencies
