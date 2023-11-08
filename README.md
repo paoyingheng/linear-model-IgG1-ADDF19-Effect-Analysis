@@ -72,17 +72,6 @@ Since the t-value is in the direction of the alternative hypothesis (< 0), we ca
 
 This implies that there seems to be a significant (negative) effect of ADDF19 dose on IgG1 levels.
 
-The simulation study provideed insights into the sample sizes required for different effect sizes.
-
-![plot02](https://github.com/paoyingheng/linear-model-IgG1-ADDF19-Effect-Analysis/assets/44899774/5dc6c869-56a0-4ae4-ab07-b24e32f2b2f8)
-
-- The plot exhibits a U-shaped trend, indicating that the highest sample sizes are required when the effect size is close to zero. This makes sense as smaller effects are harder to detect and hence require larger samples to achieve adequate power.
-- For effect sizes at the extremes (closer to -1 and 1), the required sample size is at its minimum, falling below 50.
-- Around an effect size of 0, the required sample size peaks, surpassing 200. This suggests that when there's no effect (or a very minimal one), one would need a substantial sample to achieve 80% power.
-- The curve is symmetrical around the effect size of 0. This indicates that the sample size required for detecting negative effects is similar to that required for positive effects of the same magnitude.
-
-Overall, the plot emphasizes the importance of effect size in power analysis: larger sample sizes are needed to detect smaller effects, while larger effects can be detected with smaller sample sizes, all other things being equal.
-
 
 ## How to Navigate This Repository
 - mice.RData: Contains the raw data used for the analysis.
