@@ -60,8 +60,17 @@ Overall, while the data suggests a trend, the evidence isn't strong enough to co
 The earlier findings suggest a negative correlation, i.e., β < 0. We thus choose a one-sided alternative hypothesis in the direction of the anticipated effect, i.e.,:
 H1 : β1 < 0
 
-The two-sided p-value (as reported from the model summary) is 0.0684. When applying our one-side H1, we get a p-value of: 0.0684/2 = 0.0342, which is smaller than 0.05. 
+Recall from the model summary:
+- estimated coefficient: -0.9584
+-  standard error: 0.5002
 
+The test statistic, t = -0.9584/0.5002 = -1.916
+
+Since the t-value is in the direction of the alternative hypothesis (< 0), we can calculate our one-sided p-value are follows:
+- Recall that the two-sided p-value (as reported from the model summary) is 0.0684. 
+- Therefore, the one-sided p-value = 0.0684/2 = 0.0342, which is smaller than 0.05.
+
+This implies that there seems to be a significant (negative) effect of ADDF19 dose on IgG1 levels.
 
 The simulation study provideed insights into the sample sizes required for different effect sizes.
 
