@@ -5,6 +5,10 @@
 
 This repository contains an analysis examining the relationship between the concentration of a chemical compound, ADDF19, and blood serum levels of Immunoglobulin IgG1 in mice. 
 
+## Introduction
+
+Immunoglobulins play an important role in protecting our bodies against diseases, infections. However, as much as immunoglobulins play a defensive role, they can themselves be threatened by new chemical compounds arising from drugs supposed to enhance our natural protections. ADDF19 could be such a problem, as it is being evaluated for its potential negative side effects, especially on the blood serum levels of Immunoglobulin IgG1. A lab animal experiment was set up with 24 mice. For each of the following doses of ADDF19, four mice were included in the study: 0.5 μg; 0.75μg; 1μg; 1.25μg; 1.5μg; 2μg. Healthy mice have IgG1 blood serum concentrations between 1.2 and 5 mg/L. We are asked to investigate the effect of ADDF19 concentrations on IgG1 Immunoglobulin blood level, through performing a statistical analysis, from the R data file mice.RData.
+
 
 ## Objective
 
@@ -50,6 +54,14 @@ The regression equation can be written as:
 The p-value of 0.0684 is slightly above the conventional statistical significance threshold of 0.05. The current model accounted for only 14.3% of the variability in IgG1 levels. 
 
 Overall, while the data suggests a trend, the evidence isn't strong enough to confirm the effect of ADDF19 concentration on IgG1 levels. Further research is recommended to substantiate these preliminary findings.
+
+**Is there a significant effect of the concentration of ADDF19 on the mean IgG1 blood level concentrations? Test this at the 5% level of significance.**
+
+The earlier findings suggest a negative correlation, i.e., β < 0. We thus choose a one-sided alternative hypothesis in the direction of the anticipated effect, i.e.,:
+H1 : β1 < 0
+
+The two-sided p-value (as reported from the model summary) is 0.0684. When applying our one-side H1, we get a p-value of: 0.0684/2 = 0.0342, which is smaller than 0.05. 
+
 
 The simulation study provideed insights into the sample sizes required for different effect sizes.
 
