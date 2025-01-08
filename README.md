@@ -25,7 +25,7 @@ The analysis involves exploring the data, fitting a linear regression model, and
 The dataset comprises IgG1 blood serum concentrations and corresponding ADDF19 doses for 24 mice. The doses of ADDF19 used in the study are: 0.5µg, 0.75µg, 1µg, 1.25µg, 1.5µg, and 2µg.
 
 
-### Statistical Analysis
+### Statistical analysis
 
 The linear regression model fitted to the data provides insights into the relationship between ADDF19 concentration and IgG1 levels. The model is evaluated based on the precision of estimates, 95% confidence intervals, and a significance test at the 5% level.
 
@@ -73,7 +73,7 @@ Since the t-value is in the direction of the alternative hypothesis (< 0), we ca
 This implies that there seems to be a significant (negative) effect of ADDF19 dose on IgG1 levels.
 
 
-## How to Navigate This Repository
+## How to navigate this repository
 - mice.RData: Contains the raw data used for the analysis.
 - analysis.R: R codes for detailed analysis and simulation study.
 
